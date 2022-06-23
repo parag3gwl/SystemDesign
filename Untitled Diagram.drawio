@@ -1,178 +1,218 @@
-<mxfile host="app.diagrams.net" modified="2022-06-23T18:33:05.700Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="n41KJMkWG9TKlxt9inrp" version="18.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-23T19:47:24.230Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="HtK-L2IcyutMDW5lrdE2" version="18.0.1" type="github">
   <diagram id="JSvCs3eml2IIvMDgM8v3" name="Page-1">
     <mxGraphModel dx="787" dy="471" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="J5EXPhGtt0kExFCHynly-1" value="Profile Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="83" y="1030" width="110" height="40" as="geometry" />
+          <mxGeometry x="83" y="1504" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="J5EXPhGtt0kExFCHynly-2" value="Vehicle Service" style="rounded=0;whiteSpace=wrap;html=1;flipV=0;flipH=1;" vertex="1" parent="1">
-          <mxGeometry x="533" y="449" width="110" height="40" as="geometry" />
+          <mxGeometry x="533" y="923" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="J5EXPhGtt0kExFCHynly-3" value="Zone Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="533" y="529" width="110" height="40" as="geometry" />
+          <mxGeometry x="533" y="1036" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="J5EXPhGtt0kExFCHynly-4" value="Inventory Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="307" y="530" width="110" height="40" as="geometry" />
+          <mxGeometry x="307" y="1037" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="J5EXPhGtt0kExFCHynly-5" value="Location Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="83" y="374" width="110" height="40" as="geometry" />
+          <mxGeometry x="83" y="848" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="J5EXPhGtt0kExFCHynly-6" value="Ride Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="83" y="529" width="110" height="40" as="geometry" />
+          <mxGeometry x="83" y="1036" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="J5EXPhGtt0kExFCHynly-7" value="Payment Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="308" y="609" width="110" height="40" as="geometry" />
+          <mxGeometry x="308" y="1116" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="J5EXPhGtt0kExFCHynly-8" value="Hadoop" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="553" y="279" width="70" height="50" as="geometry" />
+          <mxGeometry x="553" y="753" width="70" height="50" as="geometry" />
         </mxCell>
         <mxCell id="J5EXPhGtt0kExFCHynly-9" value="Kafka" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=90;" vertex="1" parent="1">
-          <mxGeometry x="338" y="349" width="40" height="80" as="geometry" />
+          <mxGeometry x="338" y="823" width="40" height="80" as="geometry" />
         </mxCell>
         <mxCell id="J5EXPhGtt0kExFCHynly-10" value="Consumer Service" style="rounded=0;whiteSpace=wrap;html=1;flipV=0;flipH=1;" vertex="1" parent="1">
-          <mxGeometry x="533" y="369" width="110" height="40" as="geometry" />
+          <mxGeometry x="533" y="843" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="J5EXPhGtt0kExFCHynly-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="J5EXPhGtt0kExFCHynly-9">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="194" y="389.72" as="sourcePoint" />
-            <mxPoint x="310" y="390" as="targetPoint" />
+            <mxPoint x="194" y="863.72" as="sourcePoint" />
+            <mxPoint x="310" y="864" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="J5EXPhGtt0kExFCHynly-13" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;Vehicle send current location&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="194" y="366" width="100" height="20" as="geometry" />
+          <mxGeometry x="194" y="840" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="J5EXPhGtt0kExFCHynly-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="404" y="390.72" as="sourcePoint" />
-            <mxPoint x="400" y="390" as="targetPoint" />
+            <mxPoint x="404" y="864.72" as="sourcePoint" />
+            <mxPoint x="400" y="864" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="533" y="390" />
+              <mxPoint x="533" y="864" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="J5EXPhGtt0kExFCHynly-15" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;Consumer Poll location&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="413" y="369" width="86" height="20" as="geometry" />
+          <mxGeometry x="413" y="843" width="86" height="20" as="geometry" />
         </mxCell>
         <mxCell id="J5EXPhGtt0kExFCHynly-17" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;Create location ledger&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="588" y="339" width="80" height="20" as="geometry" />
+          <mxGeometry x="588" y="813" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="J5EXPhGtt0kExFCHynly-21" value="" style="endArrow=classic;html=1;rounded=0;fontSize=7;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="J5EXPhGtt0kExFCHynly-10">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="588" y="359" as="sourcePoint" />
-            <mxPoint x="587.72" y="329" as="targetPoint" />
+            <mxPoint x="588" y="833" as="sourcePoint" />
+            <mxPoint x="587.72" y="803" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="J5EXPhGtt0kExFCHynly-22" value="" style="endArrow=classic;html=1;rounded=0;fontSize=7;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" target="J5EXPhGtt0kExFCHynly-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="588" y="449" as="sourcePoint" />
-            <mxPoint x="587.72" y="409" as="targetPoint" />
+            <mxPoint x="588" y="923" as="sourcePoint" />
+            <mxPoint x="587.72" y="883" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="588" y="409" />
+              <mxPoint x="588" y="883" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="J5EXPhGtt0kExFCHynly-23" value="Update Vehicle Location&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Use Bulk Insert for performance&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=7;" vertex="1" parent="1">
-          <mxGeometry x="588" y="414" width="110" height="20" as="geometry" />
+          <mxGeometry x="588" y="888" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="J5EXPhGtt0kExFCHynly-24" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.625;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="J5EXPhGtt0kExFCHynly-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="207" y="553.72" as="sourcePoint" />
-            <mxPoint x="307" y="554" as="targetPoint" />
+            <mxPoint x="207" y="1060.72" as="sourcePoint" />
+            <mxPoint x="307" y="1061" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="J5EXPhGtt0kExFCHynly-25" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;&lt;font style=&quot;font-size: 7px;&quot;&gt;Reduce Inventory on ride request&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 7px;&quot;&gt;Increase Inventory on ride stop&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="193" y="530" width="114" height="20" as="geometry" />
+        <mxCell id="J5EXPhGtt0kExFCHynly-25" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 8px;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;3.&lt;/font&gt; &lt;/b&gt;&lt;span style=&quot;font-size: 7px;&quot;&gt;Modify Inventory on ride request or&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 7px;&quot;&gt;stop&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="193" y="1037" width="107" height="20" as="geometry" />
         </mxCell>
         <mxCell id="J5EXPhGtt0kExFCHynly-26" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.014;entryY=0.658;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="J5EXPhGtt0kExFCHynly-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="417" y="554.58" as="sourcePoint" />
-            <mxPoint x="517" y="554.86" as="targetPoint" />
+            <mxPoint x="417" y="1061.58" as="sourcePoint" />
+            <mxPoint x="517" y="1061.8600000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="J5EXPhGtt0kExFCHynly-27" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;&lt;font style=&quot;font-size: 7px;&quot;&gt;Reduce Inventory on ride request&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 7px;&quot;&gt;Increase Inventory on ride stop&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="417" y="530.86" width="116" height="20" as="geometry" />
+        <mxCell id="J5EXPhGtt0kExFCHynly-27" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;4.&lt;/font&gt;&lt;/b&gt;&lt;span style=&quot;font-size: 7px;&quot;&gt; Modify Inventory on ride request&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 7px;&quot;&gt;or stop&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="417" y="1037.8600000000001" width="103" height="20" as="geometry" />
         </mxCell>
         <mxCell id="J5EXPhGtt0kExFCHynly-29" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=7;" vertex="1" parent="1">
           <mxGeometry x="890" y="550" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="J5EXPhGtt0kExFCHynly-32" value="" style="endArrow=classic;html=1;rounded=0;fontSize=7;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=-0.002;entryY=0.644;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="J5EXPhGtt0kExFCHynly-6" target="J5EXPhGtt0kExFCHynly-7">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="163" y="639" as="sourcePoint" />
-            <mxPoint x="138" y="619" as="targetPoint" />
+            <mxPoint x="163" y="1146" as="sourcePoint" />
+            <mxPoint x="138" y="1126" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="138" y="635" />
+              <mxPoint x="138" y="1142" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="J5EXPhGtt0kExFCHynly-33" value="Payment on Ride Completion" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=7;" vertex="1" parent="1">
-          <mxGeometry x="168" y="619" width="110" height="10" as="geometry" />
+        <mxCell id="J5EXPhGtt0kExFCHynly-33" value="&lt;b&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;5.&lt;/font&gt;&lt;/b&gt; Payment on Ride Completion" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=7;" vertex="1" parent="1">
+          <mxGeometry x="163" y="1126" width="120" height="10" as="geometry" />
         </mxCell>
         <mxCell id="J5EXPhGtt0kExFCHynly-35" value="Notification Consumer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="534" y="783" width="110" height="40" as="geometry" />
+          <mxGeometry x="534" y="1257" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="J5EXPhGtt0kExFCHynly-36" value="Kafka" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=90;" vertex="1" parent="1">
-          <mxGeometry x="343" y="763" width="40" height="80" as="geometry" />
+          <mxGeometry x="343" y="1237" width="40" height="80" as="geometry" />
         </mxCell>
         <mxCell id="J5EXPhGtt0kExFCHynly-37" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="404" y="804.7199999999999" as="sourcePoint" />
-            <mxPoint x="404" y="804" as="targetPoint" />
+            <mxPoint x="404" y="1278.7199999999998" as="sourcePoint" />
+            <mxPoint x="404" y="1278" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="533" y="804" />
+              <mxPoint x="533" y="1278" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="J5EXPhGtt0kExFCHynly-38" value="&lt;span style=&quot;font-size: 7px;&quot;&gt;Poll Pending&amp;nbsp;notifications&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="413" y="783" width="86" height="20" as="geometry" />
+          <mxGeometry x="413" y="1257" width="86" height="20" as="geometry" />
         </mxCell>
         <mxCell id="J5EXPhGtt0kExFCHynly-39" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Content Mgnt Service&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="533" y="690" width="76" height="40" as="geometry" />
+          <mxGeometry x="533" y="1164" width="76" height="40" as="geometry" />
         </mxCell>
         <mxCell id="J5EXPhGtt0kExFCHynly-40" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.46;entryY=-0.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="571" y="780" as="sourcePoint" />
-            <mxPoint x="570.9600000000003" y="728.6800000000001" as="targetPoint" />
+            <mxPoint x="571" y="1254" as="sourcePoint" />
+            <mxPoint x="570.9600000000003" y="1202.68" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="J5EXPhGtt0kExFCHynly-41" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;Fetch message template&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="570" y="743" width="90" height="20" as="geometry" />
+          <mxGeometry x="570" y="1217" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="J5EXPhGtt0kExFCHynly-42" value="Firebase Cloud Messaging" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="620" y="920" width="90" height="40" as="geometry" />
+          <mxGeometry x="620" y="1394" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="J5EXPhGtt0kExFCHynly-43" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.19;entryY=0.024;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.929;exitY=1.058;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="J5EXPhGtt0kExFCHynly-35" target="J5EXPhGtt0kExFCHynly-42">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="630" y="822.9999999999999" as="sourcePoint" />
-            <mxPoint x="747.54" y="823.7400000000001" as="targetPoint" />
+            <mxPoint x="630" y="1297" as="sourcePoint" />
+            <mxPoint x="747.54" y="1297.7400000000002" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="J5EXPhGtt0kExFCHynly-44" value="Notification Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="83" y="786" width="110" height="40" as="geometry" />
+          <mxGeometry x="83" y="1260" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="J5EXPhGtt0kExFCHynly-46" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.465;exitY=1.05;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="193.2700000000001" y="803.3199999999999" as="sourcePoint" />
-            <mxPoint x="320" y="803" as="targetPoint" />
+            <mxPoint x="193.2700000000001" y="1277.32" as="sourcePoint" />
+            <mxPoint x="320" y="1277" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="J5EXPhGtt0kExFCHynly-47" value="Push message to &lt;br&gt;iOS/Android/Web" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=7;" vertex="1" parent="1">
-          <mxGeometry x="644" y="880" width="70" height="20" as="geometry" />
+          <mxGeometry x="644" y="1354" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="J5EXPhGtt0kExFCHynly-48" value="SMTP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="519" y="920" width="90" height="40" as="geometry" />
+          <mxGeometry x="519" y="1394" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="J5EXPhGtt0kExFCHynly-49" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.19;entryY=0.024;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.929;exitY=1.058;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="565.19" y="825.9999999999999" as="sourcePoint" />
-            <mxPoint x="566.0999999999999" y="921.64" as="targetPoint" />
+            <mxPoint x="565.19" y="1300" as="sourcePoint" />
+            <mxPoint x="566.0999999999999" y="1395.6399999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="J5EXPhGtt0kExFCHynly-50" value="Send Emails" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=7;" vertex="1" parent="1">
-          <mxGeometry x="570" y="885" width="50" height="10" as="geometry" />
+          <mxGeometry x="570" y="1359" width="50" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="J5EXPhGtt0kExFCHynly-51" value="&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;u&gt;Ride Service API&#39;s : &lt;/u&gt;Responsible for creating ride, starting ride, stopping ride, Getting all rides for a particular user&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;1. /v1/rides/request : Post&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;b&gt;Header : Access token&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Request&lt;/b&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;{&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;user_id: string,&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;zone_id: string,&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;vehicle_category: int&amp;nbsp;&lt;/blockquote&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;}&lt;/div&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;Response&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;{&lt;/div&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ride_id : string,&lt;/span&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;vehicle_id: string,&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;}&lt;/span&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;b&gt;2. /v1/rides/start : Patch&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;b&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;Header : Access token&lt;/b&gt;&lt;br&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;&lt;b&gt;Request&lt;/b&gt;&amp;nbsp;:&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;{&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;rid_id: string,&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;start_time: timestamp (GMT timezone)&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;}&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;&lt;b&gt;Response&lt;/b&gt;&amp;nbsp;:&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;{&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;ride_id: string&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;/v1/rides/start : Patch&lt;/b&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;3. /v1/rides/end : Post&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;b&gt;Header : Access token&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Request&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;{&lt;/span&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;ride_id: string,&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;end_time: timestamp (GMT timezone)&lt;/blockquote&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&amp;nbsp;}&lt;/div&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;Response&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&lt;span style=&quot;&quot;&gt;	&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;/span&gt;{&lt;/div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ride_id : string&lt;/span&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;}&lt;/span&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;Assumptions: Ride can be booked only from designated zone only&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;b&gt;4. /v1/rides/history : GET&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;b&gt;Parameters&lt;/b&gt; :&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;{&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;user_id: string,&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;page_size: number,&lt;/div&gt;&lt;div&gt;last_index: number&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;}&lt;/div&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;b&gt;Response&lt;/b&gt;&amp;nbsp;:&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;{&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;total_record: number,&lt;/div&gt;&lt;div&gt;last_index: number,&lt;/div&gt;&lt;div&gt;rides: {&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;ride_id: string,&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;start_time: timestamp (GMT timezone),&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;duration : number (minutes),&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;amount : string,&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;start_location: string (user readable address)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;end_location: string (user readable address)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;}&lt;br&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;}&lt;/div&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="417" y="30" width="276" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="J5EXPhGtt0kExFCHynly-52" value="Auth Server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="308" y="948" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="J5EXPhGtt0kExFCHynly-53" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.006;entryY=0.37;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="J5EXPhGtt0kExFCHynly-54" target="J5EXPhGtt0kExFCHynly-52">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="141" y="1006.39" as="sourcePoint" />
+            <mxPoint x="255" y="1006.39" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J5EXPhGtt0kExFCHynly-54" value="API Gate&lt;br&gt;Way" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="84" y="934" width="36" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="J5EXPhGtt0kExFCHynly-55" value="&lt;b&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;1&lt;/font&gt;&lt;/b&gt;. Validate access token Embed User ID in request" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=7;" vertex="1" parent="1">
+          <mxGeometry x="124" y="948" width="170" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="J5EXPhGtt0kExFCHynly-57" value="" style="endArrow=classic;html=1;rounded=0;fontSize=7;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="111" y="1035" as="sourcePoint" />
+            <mxPoint x="111" y="1035" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="111" y="995" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J5EXPhGtt0kExFCHynly-58" value="&lt;b&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;2. &lt;/font&gt;&lt;/b&gt;If token valid" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=7;" vertex="1" parent="1">
+          <mxGeometry x="108" y="1004" width="60" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="J5EXPhGtt0kExFCHynly-59" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;List of Assumptions:-&lt;br&gt;&lt;/font&gt;&lt;ol style=&quot;font-size: 9px;&quot;&gt;&lt;li&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Ride can be booked only from designated zone only&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=8;horizontal=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="30" width="310" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="J5EXPhGtt0kExFCHynly-60" value="&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;u&gt;Location Service API&#39;s : &lt;/u&gt;Responsible for collecting vehicle current location and pushing to kafka. It can be a lossy service as if we loose couple of events we still have other location points of vehicle.&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;1. /v1/locations/location : Post&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;b&gt;Header : Access token&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Request&lt;/b&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;{&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;vehicle_id: string,&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;longitude: string (float but pass as string for not loosing bits),&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;latitude: string (float but pass as string for not loosing bits)&amp;nbsp;&lt;/blockquote&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;}&lt;/div&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;Response&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;202&lt;/span&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&lt;br&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="276" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="J5EXPhGtt0kExFCHynly-61" value="&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;u&gt;Zone Service API&#39;s : &lt;/u&gt;Responsible for managing Zone, keep inventory of vehicles&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;1. /v1/zones/nearest: GET&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;b&gt;Header : Access token&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Parameters&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;{&lt;/span&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;longitude: string (float but pass as string for not loosing bits),&lt;/span&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;latitude: string (float but pass as string for not loosing bits)&amp;nbsp;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;}&lt;/div&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;Response&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;{&lt;/div&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;zones: [&amp;nbsp;&lt;/span&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;zone_id : string,&lt;/span&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;categories: [&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;{vehicle_cateogry: string,&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;/span&gt;available_count: number}&lt;br&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;/span&gt;]&lt;br&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;]&lt;br&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;}&lt;/span&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;b&gt;2. /v1/rides/start : Patch&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;b&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;Header : Access token&lt;/b&gt;&lt;br&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;&lt;b&gt;Request&lt;/b&gt;&amp;nbsp;:&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;{&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;rid_id: string,&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;start_time: timestamp (GMT timezone)&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;}&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;&lt;b&gt;Response&lt;/b&gt;&amp;nbsp;:&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;{&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;ride_id: string&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;/v1/rides/start : Patch&lt;/b&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;3. /v1/rides/end : Post&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;b&gt;Header : Access token&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Request&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;{&lt;/span&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;ride_id: string,&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;end_time: timestamp (GMT timezone)&lt;/blockquote&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&amp;nbsp;}&lt;/div&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;Response&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&lt;span style=&quot;&quot;&gt;	&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;/span&gt;{&lt;/div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ride_id : string&lt;/span&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;}&lt;/span&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;Assumptions: Ride can be booked only from designated zone only&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;b&gt;4. /v1/rides/history : GET&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;b&gt;Parameters&lt;/b&gt; :&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;{&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;user_id: string,&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;page_size: number,&lt;/div&gt;&lt;div&gt;last_index: number&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;}&lt;/div&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;b&gt;Response&lt;/b&gt;&amp;nbsp;:&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;{&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;total_record: number,&lt;/div&gt;&lt;div&gt;last_index: number,&lt;/div&gt;&lt;div&gt;rides: {&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;ride_id: string,&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;start_time: timestamp (GMT timezone),&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;duration : number (minutes),&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;amount : string,&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;start_location: string (user readable address)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;end_location: string (user readable address)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;}&lt;br&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;}&lt;/div&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px;&quot;&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="720" y="20" width="276" height="590" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
