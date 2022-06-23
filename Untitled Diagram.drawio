@@ -1,1 +1,40 @@
-<mxfile host="app.diagrams.net" modified="2022-06-23T17:32:00.527Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" version="18.0.1" etag="E36NKFqeZXAbHjFxFKc3" type="github"><diagram id="JSvCs3eml2IIvMDgM8v3">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-06-23T17:42:23.240Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="GlehWYfuhduSAFu_AhSj" version="18.0.1" type="github">
+  <diagram id="JSvCs3eml2IIvMDgM8v3" name="Page-1">
+    <mxGraphModel dx="721" dy="432" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="J5EXPhGtt0kExFCHynly-1" value="Profile Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="190" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="J5EXPhGtt0kExFCHynly-2" value="Vehicle Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="530" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="J5EXPhGtt0kExFCHynly-3" value="Zone Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="610" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="J5EXPhGtt0kExFCHynly-4" value="Inventory Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="465" y="610" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="J5EXPhGtt0kExFCHynly-5" value="Location Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="450" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="J5EXPhGtt0kExFCHynly-6" value="Ride Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="610" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="J5EXPhGtt0kExFCHynly-7" value="Payment Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="465" y="690" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="J5EXPhGtt0kExFCHynly-8" value="Hadoop" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="640" y="370" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="J5EXPhGtt0kExFCHynly-9" value="Kafka" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="510" y="420" width="40" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="J5EXPhGtt0kExFCHynly-10" value="Consumer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="450" width="110" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
